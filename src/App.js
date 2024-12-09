@@ -1,10 +1,16 @@
 import './App.css';
+import Layout from './components/layout/Layout';
+import LocationPage from './components/location_page/LocationPage';
+import './styles/main.scss'
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <h1>Kasa</h1>
-    </div>
+    <Routes>
+      <Route path="/" element={<Layout />} >
+        <Route path='/location/:id' element={<LocationPage />} />
+      </Route>
+    </Routes>
   );
 }
 
