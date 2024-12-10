@@ -23,6 +23,12 @@
   flex-wrap: wrap;
   gap: 10px;
 }
+.location-page .collapse-list-container {
+  width: 90%;
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+}
 
 .location-info {
   display: flex;

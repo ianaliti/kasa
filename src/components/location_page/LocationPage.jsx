@@ -6,12 +6,13 @@ import Error from '../error/Error'
 import Tag from '../tag/Tag'
 import RatingStars from '../rating_stars/RatingStars'
 import HostCard from '../host_card/HostCard'
+import ToogleButton from '../collapse_list/CollapseList'
 
 export default function LocationPage() {
+
     const { id } = useParams()
     const location = locations.find(loc => loc.id === id)
 
-    console.log(location.host.picture);
 
     if (!location) {
         return <Error />
@@ -28,8 +29,8 @@ export default function LocationPage() {
                     <p className='location'>{location.location}</p>
                     <div className='tag-list'>
                         {
-                            location.tags.map((tag) => (
-                                <Tag tags={tag} />
+                            location.tags.map((tag, index) => (
+                                <Tag tags={tag} key={index} />
                             ))
                         }
                     </div>
@@ -38,6 +39,14 @@ export default function LocationPage() {
                     <HostCard picture={location.host.picture} name={location.host.name} />
                     <RatingStars rating={location.rating} id={location.id} />
                 </div>
+            </div>
+            <div className='collapse-list-container'>
+                <ToogleButton 
+                    title='Description' 
+                    items={location.description} />
+                <ToogleButton 
+                    title="Equipements" 
+                    items={location.equipments}/>
             </div>
         </div>
     )
