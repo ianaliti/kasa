@@ -1,17 +1,12 @@
 import React from 'react'
-import Layout from '../layout/Layout'
+import Banner from '../banner/Banner.jsx'
+import CardList from '../card_list/CardList.jsx'
 
 export default function MainPage() {
-  return (
+    return (
         <div>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Layout />} />
-            <Route path='/location/:id' element={<LocationPage />}/>
-          </Routes>
-          <Banner />
-          <CardList />
-          <Footer />
+            <Banner />
+            <CardList />
         </div>
-  )
+    )
 }

@@ -1,3 +1,52 @@
+.location-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.location-page .location-image {
+  width: 90%;
+  height: 415px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.location-page .location-image img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.location-page .tag-list {
+  width: 90%;
+  display: flex;
+  margin: 20px 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .location-info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 90%;
+}
+.location-info .location {
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.location-info .title {
   color: rgb(255, 96, 96);
+  font-weight: 500;
+  font-size: 36px;
+  font-family: "Montserrat", sans-serif;
+  margin: 25px 0 0;
+}
+.location-info .location-host-and-rating {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  flex-wrap: wrap;
 }/*# sourceMappingURL=LocationPage.css.map */
