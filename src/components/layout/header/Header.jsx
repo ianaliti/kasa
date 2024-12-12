@@ -8,7 +8,7 @@ export default function Header() {
         <nav>
             <img src={logo} alt='logo' className='logo'></img>
             <div className='header-link'>
-                <NavLink exact="true" to="/kasa/" className={({ isActive }) => (isActive ? "active" : "")}>Accueil</NavLink>
+                <NavLink exact="true" to="/" className={({ isActive }) => (isActive ? "active" : "")}>Accueil</NavLink>
                 <NavLink to="/propos" className={({ isActive }) => (isActive ? "active" : "")}>A Propos</NavLink>
             </div>
         </nav>
