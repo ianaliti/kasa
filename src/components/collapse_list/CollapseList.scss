@@ -1,3 +1,5 @@
+@use '../../styles/variables';
+
 .collapse-list {
   margin-bottom: 20px;
   cursor: pointer;
@@ -8,14 +10,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: rgba(255, 96, 96, 1);
+    background-color: variables.$primary-color;
     border-radius: 10px;
 
     .title {
       margin: 0;
       font-size: 18px;
       font-weight: 500;
-      font-family: 'Montserrat', sans-serif;
       color: white;
     }
 
@@ -42,13 +43,12 @@
     p {
         font-size: 18px;
         font-weight: 400;
-        font-family: 'Montserrat', sans-serif;
     }
   }
 
   &.expanded {
     .collapse-list-content {
-        background-color: rgba(246, 246, 246, 0.45);
+        background-color: variables.$secondary-color;
     }
   }
 } 

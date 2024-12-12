@@ -17,11 +17,11 @@
 @media (max-width: 768px) {
   .card-list-container .card-list {
     margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 20px;
     background-color: white;
     width: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }/*# sourceMappingURL=CardList.css.map */

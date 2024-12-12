@@ -1,1 +1,1 @@
-{"version":3,"sources":["Tag.scss","Tag.css"],"names":[],"mappings":"AAAA;EACI,kCAAA;EACA,gBAAA;EACA,gBAAA;EACA,aAAA;EACA,uBAAA;EACA,mBAAA;EACA,mBAAA;EACA,mBAAA;EACA,eAAA;ACCJ;ADCI;EACI,YAAA;EACA,eAAA;EACA,qCAAA;EACA,SAAA;ACCR","file":"Tag.css"}
+{"version":3,"sources":["Tag.scss","../../styles/_variables.scss","../../styles/_mixins.scss","Tag.css"],"names":[],"mappings":"AAGA;EACI,kCCJY;EDKZ,gBAAA;EACA,gBAAA;EACA,mBAAA;EACA,mBAAA;EACA,eAAA;EERA,aAAA;EACA,uBAAA;EACA,mBAAA;ACOJ;AHEI;EACI,YAAA;EACA,eAAA;EACA,SAAA;AGAR","file":"Tag.css"}

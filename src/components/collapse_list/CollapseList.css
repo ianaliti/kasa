@@ -15,7 +15,6 @@
   margin: 0;
   font-size: 18px;
   font-weight: 500;
-  font-family: "Montserrat", sans-serif;
   color: white;
 }
 .collapse-list .collapse-list-header .toggle-icon {
@@ -37,7 +36,6 @@
 .collapse-list .collapse-list-content p {
   font-size: 18px;
   font-weight: 400;
-  font-family: "Montserrat", sans-serif;
 }
 .collapse-list.expanded .collapse-list-content {
   background-color: rgba(246, 246, 246, 0.45);

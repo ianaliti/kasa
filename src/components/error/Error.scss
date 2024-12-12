@@ -1,17 +1,16 @@
+@use '../../styles/variables';
+@use '../../styles/mixins';
+
 .error-page {
-    color: rgba(255, 96, 96, 1);
+    color: variables.$primary-color;
     height: 100%;
     width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    @include mixins.flex-center;
 
     .error-title {
         font-size: 288px;
         font-weight: 700;
-        font-family: 'Montserrat', sans-serif;
-
 
         @media (max-width: 768px) {
             font-size: 96px; 
@@ -20,8 +19,7 @@
 
     .error-description {
         font-size: 36px;
-        color: rgba(255, 96, 96, 1);
-        font-family: 'Montserrat', sans-serif;
+        color: variables.$primary-color;
         font-weight: 500;
 
         @media (max-width: 768px) {

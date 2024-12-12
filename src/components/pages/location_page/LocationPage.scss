@@ -1,9 +1,10 @@
+@use '../../../styles/variables';
+@use '../../../styles/mixins';
+
 
 .location-page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    @include mixins.flex-center;
 
     .location-image {
         width: 90%;
@@ -56,16 +57,15 @@
     }
     
     .title {
-        color: rgba(255, 96, 96, 1);
+        color: variables.$primary-color;
         font-weight: 500;
         font-size: 36px;
-        font-family: 'Montserrat', sans-serif;
         margin: 25px 0 0;
     }
 
     .location-host-and-rating {
         display: flex;
-        align-items: center;
+        align-items: end;
         justify-content: space-around;
         flex-direction: column;
         flex-wrap: wrap;

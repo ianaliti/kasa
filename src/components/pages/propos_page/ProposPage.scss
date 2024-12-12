@@ -1,20 +1,18 @@
 
+@use '../../../styles/mixins';
+
 .propos-page {
     width: 100%;
 
     .collapse-container {
       width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
       margin-top: 20px;
+      @include mixins.flex-center;
 
       .collapse-list-propos {
         width: 70%;
-        display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        @include mixins.flex-center;
       }
   }
 }

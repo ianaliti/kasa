@@ -1,12 +1,13 @@
+@use '../../styles/variables';
+
 .host {
     display: flex;
-    display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
 
     p {
         margin-right: 10px;
-        color: rgba(255, 96, 96, 1);
+        color: variables.$primary-color;
         font-size: 18px;
 
         @media (max-width: 768px) {

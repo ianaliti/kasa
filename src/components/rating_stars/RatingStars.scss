@@ -1,3 +1,5 @@
+@use '../../styles/variables';
+
 .rating-stars {
     display: flex;
     gap: 4px; 
@@ -14,5 +16,5 @@
   }
   
   .star.filled {
-    color: #f05a28; 
+    color: variables.$primary-color; 
   }

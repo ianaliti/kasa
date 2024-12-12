@@ -1,3 +1,5 @@
+@use '../../styles/mixins';
+
 .card-list-container {
     display: flex;
     justify-content: center;
@@ -16,12 +18,10 @@
 
         @media (max-width: 768px) {
             margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
             gap: 20px;
             background-color: white;
             width: 85%;
+            @include mixins.flex-center;
         }
     }
 }

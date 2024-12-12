@@ -1,8 +1,8 @@
 .location-page {
+  flex-direction: column;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
 }
 .location-page .location-image {
   width: 90%;
@@ -56,12 +56,11 @@
   color: rgb(255, 96, 96);
   font-weight: 500;
   font-size: 36px;
-  font-family: "Montserrat", sans-serif;
   margin: 25px 0 0;
 }
 .location-info .location-host-and-rating {
   display: flex;
-  align-items: center;
+  align-items: end;
   justify-content: space-around;
   flex-direction: column;
   flex-wrap: wrap;
