@@ -3,7 +3,7 @@ import './CollapseList.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 
-export default function CollapsibleList({ title, items }) {
+export default function CollapseList({ title, items }) {
 
   const [isExpanded, setIsExpanded] = useState(false);
 
@@ -15,7 +15,7 @@ export default function CollapsibleList({ title, items }) {
     <div className={`collapse-list ${isExpanded ? 'expanded' : ''}`}>
       <div className="collapse-list-header" onClick={toggleExpansion}>
         <p className="title">{title}</p>
-        <FontAwesomeIcon className="toggle-icon" icon={isExpanded ? faChevronUp : faChevronDown} />
+        <FontAwesomeIcon className="toggle-icon" icon={isExpanded ? faChevronDown : faChevronUp} />
       </div>
       {isExpanded && (
         <div className="collapse-list-content">

@@ -1,3 +1,44 @@
 .error-page {
     color: rgba(255, 96, 96, 1);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .error-title {
+        font-size: 288px;
+        font-weight: 700;
+        font-family: 'Montserrat', sans-serif;
+
+
+        @media (max-width: 768px) {
+            font-size: 96px; 
+         }
+    }
+
+    .error-description {
+        font-size: 36px;
+        color: rgba(255, 96, 96, 1);
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+
+        @media (max-width: 768px) {
+           font-size: 18px; 
+           text-align: center;
+           padding: 20px;
+        }
+    }
+
+    .error-link {
+        color: black;
+        text-decoration: underline;
+        font-size: 19px;
+        padding: 40px;
+
+        @media (max-width: 768px) {
+            font-size: 14px; 
+         }
+    }
 }

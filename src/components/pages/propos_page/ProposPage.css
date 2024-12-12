@@ -1,0 +1,17 @@
+.propos-page {
+  width: 100%;
+}
+.propos-page .collapse-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.propos-page .collapse-container .collapse-list-propos {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=ProposPage.css.map */

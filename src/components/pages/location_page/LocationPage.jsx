@@ -1,12 +1,12 @@
 import React from 'react'
 import './LocationPage.css'
 import { useParams } from 'react-router-dom'
-import locations from '../../data/apartments.json'
-import Error from '../error/Error'
-import Tag from '../tag/Tag'
-import RatingStars from '../rating_stars/RatingStars'
-import HostCard from '../host_card/HostCard'
-import ToogleButton from '../collapse_list/CollapseList'
+import locations from '../../../data/apartments.json'
+import Error from '../../error/Error'
+import Tag from '../../tag/Tag'
+import RatingStars from '../../rating_stars/RatingStars'
+import HostCard from '../../host_card/HostCard'
+import CollapseList from '../../collapse_list/CollapseList'
 
 export default function LocationPage() {
 
@@ -41,10 +41,10 @@ export default function LocationPage() {
                 </div>
             </div>
             <div className='collapse-list-container'>
-                <ToogleButton 
+                <CollapseList 
                     title='Description' 
                     items={location.description} />
-                <ToogleButton 
+                <CollapseList 
                     title="Equipements" 
                     items={location.equipments}/>
             </div>

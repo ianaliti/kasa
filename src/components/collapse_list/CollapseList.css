@@ -9,6 +9,7 @@
   align-items: center;
   padding: 10px;
   background-color: rgb(255, 96, 96);
+  border-radius: 10px;
 }
 .collapse-list .collapse-list-header .title {
   margin: 0;

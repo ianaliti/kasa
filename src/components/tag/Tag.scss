@@ -1,16 +1,18 @@
 .tag-container {
     background-color: rgba(255, 96, 96, 1);
-    width: 115px;
-    height: 25px;
+    min-width: 115px;
+    min-height: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     border-radius: 10px;
+    padding: 0 10px;
 
     p {
         color: white;
         font-size: 14px;
         font-family: 'Montserrat', sans-serif;
+        margin: 0;
     }
 }

@@ -1,0 +1,40 @@
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px;
+}
+nav .logo {
+  margin-left: 40px;
+}
+@media (max-width: 768px) {
+  nav .logo {
+    margin-left: 0;
+    max-width: 40%;
+    height: auto;
+  }
+}
+nav .header-link {
+  display: flex;
+  gap: 58px;
+  margin-right: 40px;
+}
+@media (max-width: 768px) {
+  nav .header-link {
+    margin: 0;
+  }
+}
+nav .header-link a {
+  text-decoration: none;
+  color: black;
+}
+nav .header-link a.active {
+  text-decoration: underline;
+}
+@media (max-width: 768px) {
+  nav .header-link a {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}/*# sourceMappingURL=Header.css.map */

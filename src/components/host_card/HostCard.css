@@ -7,6 +7,12 @@
 .host p {
   margin-right: 10px;
   color: rgb(255, 96, 96);
+  font-size: 18px;
+}
+@media (max-width: 768px) {
+  .host p {
+    font-size: 12px;
+  }
 }
 .host .location-image {
   width: 64px;

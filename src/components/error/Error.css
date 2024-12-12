@@ -1,3 +1,43 @@
 .error-page {
   color: rgb(255, 96, 96);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.error-page .error-title {
+  font-size: 288px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 768px) {
+  .error-page .error-title {
+    font-size: 96px;
+  }
+}
+.error-page .error-description {
+  font-size: 36px;
+  color: rgb(255, 96, 96);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .error-page .error-description {
+    font-size: 18px;
+    text-align: center;
+    padding: 20px;
+  }
+}
+.error-page .error-link {
+  color: black;
+  text-decoration: underline;
+  font-size: 19px;
+  padding: 40px;
+}
+@media (max-width: 768px) {
+  .error-page .error-link {
+    font-size: 14px;
+  }
 }/*# sourceMappingURL=Error.css.map */

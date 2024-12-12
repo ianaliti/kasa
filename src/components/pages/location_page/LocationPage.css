@@ -23,11 +23,21 @@
   flex-wrap: wrap;
   gap: 10px;
 }
+@media (max-width: 768px) {
+  .location-page .tag-list {
+    width: 100%;
+  }
+}
 .location-page .collapse-list-container {
   width: 90%;
   display: flex;
   gap: 20px;
   justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .location-page .collapse-list-container {
+    flex-direction: column;
+  }
 }
 
 .location-info {
@@ -55,4 +65,12 @@
   justify-content: space-around;
   flex-direction: column;
   flex-wrap: wrap;
+}
+@media (max-width: 768px) {
+  .location-info .location-host-and-rating {
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
 }/*# sourceMappingURL=LocationPage.css.map */
