@@ -10,7 +10,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Layout />} >
+      <Route path="/kasa/" element={<Layout />} >
         <Route />
         <Route index element={<MainPage />} />
         <Route path='/location/:id' element={<LocationPage />} />
