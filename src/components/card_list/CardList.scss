@@ -23,5 +23,17 @@
             width: 85%;
             @include mixins.flex-center;
         }
+
+        @media (max-width: 1024px) {
+            padding: 0;
+            justify-content: center;
+            margin: 20px 85px;
+        }
+
+        a {
+            @media (max-width: 768px) {
+                width: 100%;
+            }
+        }
     }
 }

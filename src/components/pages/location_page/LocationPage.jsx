@@ -7,6 +7,7 @@ import Tag from '../../tag/Tag'
 import RatingStars from '../../rating_stars/RatingStars'
 import HostCard from '../../host_card/HostCard'
 import CollapseList from '../../collapse_list/CollapseList'
+import Gallery from '../../gallery/Gallery'
 
 export default function LocationPage() {
 
@@ -21,7 +22,7 @@ export default function LocationPage() {
     return (
         <div className='location-page'>
             <div className='location-image'>
-                <img src={location.cover} alt={location.title} />
+                <Gallery pictures={location.pictures} />
             </div>
             <div className='location-info'>
                 <div className='location-name-tags'>

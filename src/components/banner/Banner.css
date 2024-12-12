@@ -50,8 +50,14 @@
   .banner-container .banner-text {
     height: 111px;
     bottom: 130px;
-    width: 55%;
+    width: 35%;
     left: 20px;
     font-size: 24px;
+  }
+}
+@media (max-width: 425px) {
+  .banner-container .banner-text {
+    width: 55%;
+    font-size: 18px;
   }
 }/*# sourceMappingURL=Banner.css.map */

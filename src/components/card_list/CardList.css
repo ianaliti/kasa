@@ -24,4 +24,16 @@
     justify-content: center;
     align-items: center;
   }
+}
+@media (max-width: 1024px) {
+  .card-list-container .card-list {
+    padding: 0;
+    justify-content: center;
+    margin: 20px 85px;
+  }
+}
+@media (max-width: 768px) {
+  .card-list-container .card-list a {
+    width: 100%;
+  }
 }/*# sourceMappingURL=CardList.css.map */

@@ -22,6 +22,7 @@ nav .header-link {
 @media (max-width: 768px) {
   nav .header-link {
     margin: 0;
+    gap: 20px;
   }
 }
 nav .header-link a {
