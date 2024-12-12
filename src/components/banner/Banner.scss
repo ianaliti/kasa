@@ -47,7 +47,6 @@
         @media (max-width: 768px) {
             height: 111px;
             bottom: 130px;
-            width: 35%;
             left: 20px;
             font-size: 24px;
         }
@@ -55,6 +54,7 @@
         @media (max-width: 425px) {
             width: 55%;
             font-size: 18px;
+            text-align: start;
         }
     }
 }

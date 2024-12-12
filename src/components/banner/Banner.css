@@ -50,7 +50,6 @@
   .banner-container .banner-text {
     height: 111px;
     bottom: 130px;
-    width: 35%;
     left: 20px;
     font-size: 24px;
   }
@@ -59,5 +58,6 @@
   .banner-container .banner-text {
     width: 55%;
     font-size: 18px;
+    text-align: start;
   }
 }/*# sourceMappingURL=Banner.css.map */
