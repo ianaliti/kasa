@@ -1,13 +1,13 @@
 import React from 'react'
 import './LocationPage.css'
 import { useParams } from 'react-router-dom'
-import locations from '../../../data/apartments.json'
-import Error from '../../error/Error'
-import Tag from '../../tag/Tag'
-import RatingStars from '../../rating_stars/RatingStars'
-import HostCard from '../../host_card/HostCard'
-import CollapseList from '../../collapse_list/CollapseList'
-import Gallery from '../../gallery/Gallery'
+import locations from '../../data/apartments.json'
+import Error from '../error_page/Error'
+import Tag from '../../../src/components/tag/Tag'
+import RatingStars from '../../../src/components/rating_stars/RatingStars'
+import HostCard from '../../../src/components/host_card/HostCard'
+import CollapseList from '../../../src/components/collapse_list/CollapseList'
+import Gallery from '../../../src/components/gallery/Gallery'
 
 export default function LocationPage() {
 

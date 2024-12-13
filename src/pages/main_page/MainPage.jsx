@@ -1,7 +1,7 @@
 import React from 'react'
-import Banner from '../../banner/Banner.jsx'
-import CardList from '../../card_list/CardList.jsx'
-import bannerImage from '../../../assets/images/bannerMain.png'
+import Banner from '../../../src/components/banner/Banner.jsx'
+import CardList from '../../../src/components/card_list/CardList.jsx'
+import bannerImage from '../../../src/assets/images/bannerMain.png'
 
 export default function MainPage() {
     return (

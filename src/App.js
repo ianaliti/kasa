@@ -1,17 +1,15 @@
 import './App.css';
-import Layout from './components/layout/Layout';
-import LocationPage from './components/pages/location_page/LocationPage';
-import MainPage from './components/pages/main_page/MainPage';
-import ProposPage from './components/pages/propos_page/ProposPage';
-import Error from './components/error/Error';
-import './styles/main.scss'
+import Layout from './layout/Layout';
+import LocationPage from '../src/pages/location_page/LocationPage';
+import MainPage from '../src/pages/main_page/MainPage';
+import ProposPage from '../src/pages/propos_page/ProposPage';
+import Error from './pages/error_page/Error';
 import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <Routes>
       <Route path="/" element={<Layout />} >
-        <Route />
         <Route index element={<MainPage />} />
         <Route path='/location/:id' element={<LocationPage />} />
         <Route path='propos' element={<ProposPage />} />

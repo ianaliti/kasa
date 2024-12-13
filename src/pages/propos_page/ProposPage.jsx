@@ -1,7 +1,7 @@
 import React from 'react'
-import Banner from '../../banner/Banner'
-import bannerPropos from '../../../assets/images/bannerPropos.png'
-import CollapsibleList from '../../collapse_list/CollapseList'
+import Banner from '../../../src/components/banner/Banner'
+import bannerPropos from '../../../src/assets/images/bannerPropos.png'
+import CollapsibleList from '../../../src/components/collapse_list/CollapseList'
 import './ProposPage.css'
 
 export default function ProposPage() {
