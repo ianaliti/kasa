@@ -6,7 +6,8 @@
     <title>Redirecting...</title>
     <script>
       // Redirect unmatched URLs to "/kasa" with the React router handling the fallback
-      window.location.replace("/kasa");
+      const path = window.location.pathname.replace('/kasa', '');
+      window.location.replace('/kasa' + (path || '/'));
     </script>
   </head>
   <body></body>
