@@ -2,7 +2,7 @@
   "name": "kasa",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ianaliti.github.io/kasa/",
+  "homepage": "https://ianaliti.github.io/kasa",
   "dependencies": {
     "@babel/plugin-transform-class-properties": "^7.25.9",
     "@babel/plugin-transform-nullish-coalescing-operator": "^7.25.9",
