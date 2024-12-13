@@ -2,7 +2,11 @@
 
 .card-list-container {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
 
     .card-list {
         display: flex;
@@ -14,7 +18,7 @@
         background-color: rgba(246, 246, 246, 1);
         margin: 20px 100px;
         padding: 20px;
-        gap: 30px;
+        gap: 50px;
 
         @media (max-width: 768px) {
             margin: 0;
@@ -26,7 +30,8 @@
 
         @media (min-width: 1024px) {
             padding: 0;
-            justify-content: center;
+            gap: 65px;
+            justify-content: start;
             margin: 20px 85px;
         }
 
