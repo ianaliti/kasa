@@ -19,15 +19,15 @@ export default function CollapseList({ title, items }) {
       </div>
       {isExpanded && (
         <div className="collapse-list-content">
-          {Array.isArray(items) ? (
+          { Array.isArray(items) ? (
             <ul>
-              {items.map((item, index) => (
+              { items.map((item, index) => (
                 <li key={index}>{item}</li>
-              ))}
+              )) }
             </ul>
           ) : (
             <p>{items}</p>
-          )}
+          ) }
         </div>
       )}
     </div>
