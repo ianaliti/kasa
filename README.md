@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+# 📘 Kasa Front-End Development Project
+Welcome to the Kasa Front-End Development Repository! This project marks the next evolution of Kasa, one of the leaders in the peer-to-peer apartment rental market in France. The goal? A sleek, modern, and highly performant web platform.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🌟 Overview
+Kasa has been connecting people to apartments for over 10 years, with over 500 new listings every day. To stay ahead, we’re rebuilding the platform from scratch using cutting-edge JavaScript technologies.
 
-## Available Scripts
+## 🛠️ Key Objectives
+Build with React:
 
-In the project directory, you can run:
+- Modular, reusable components for scalability.
+- Dynamic routing using React Router.
+- Use JSON mock data to simulate back-end integration.
+- Styling with Sass:
 
-### `npm start`
+Write clean, modular Sass styles.
+Implement CSS animations for dropdowns and galleries.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Functional Features:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Implement responsive Gallery and Collapse components as per Figma prototypes.
+Ensure accessibility and seamless user experience.
 
-### `npm test`
+## 🖼️ Gallery Component
+Circular navigation:
+From the first image to the last, and vice versa.
+Smart button logic:
+Hide navigation controls when there’s only one image.
+Fixed height:
+Images maintain consistent height, centered within the frame.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📂 Collapse Component
+Default state:
+Collapsed on load.
+Toggle logic:
+Open/close on click, maintaining independent states.
 
-### `npm run build`
+## ⚙️ Tech Stack & Guidelines
+Core Stack
+React:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Functional components with props and state.
+Dynamic rendering of lists using .map().
+Modular architecture for scalable development.
+React Router:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Route parameters for dynamic pages.
+Error handling with a dedicated 404 page.
